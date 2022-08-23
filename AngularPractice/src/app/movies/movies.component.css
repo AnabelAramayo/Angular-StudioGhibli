@@ -1,0 +1,15 @@
+.tarjeta{
+    height: 60rem;
+    margin:2rem;
+    padding: 3rem;
+    background-color: #F1EFEE;
+}
+.tarjetaImagen {
+    width: 25rem;
+    height: 37rem;
+    padding-bottom: 2rem;
+}
+.movies{
+    width: 30rem; /*este no esta funcionando*/
+    display: flex;
+}

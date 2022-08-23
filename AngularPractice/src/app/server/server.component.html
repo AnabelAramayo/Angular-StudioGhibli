@@ -1,4 +1,5 @@
-<p>{{'Server'}} with ID {{ serverId }} is {{getServerStatus()}}</p>
-<button [disabled]="!allowNewServer">Add server</button>
-<p>{{allowNewServer}}</p>
-<p [innerText]="allowNewServer"></p>
+<!--<p>{{'Server'}} with ID {{ serverId }} is {{getServerStatus()}}</p>!-->
+<button [disabled]="!allowNewServer" (click)="onCreateServer()">Add server</button>
+<!--<p>{{allowNewServer}}</p>
+<p [innerText]="allowNewServer"></p>!-->
+<p>{{serverCreationStatus}}</p>

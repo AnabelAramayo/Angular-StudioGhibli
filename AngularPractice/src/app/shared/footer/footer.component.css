@@ -3,7 +3,7 @@
     border-top: 0.1em solid white;
     /*height: 6.1em;*/
     width: 100%;
-    position:absolute;
+    /*position:absolute; __> esto tapa el server*/
     bottom: 0;
 }
 .iconDiv{

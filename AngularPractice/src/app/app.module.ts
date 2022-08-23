@@ -4,14 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
-import {ServerComponent} from './server/server.component'
+import {ServerComponent} from './server/server.component';
+import { MoviesComponent } from './movies/movies.component';
+import { MainComponent } from './main/main.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent
+    ServerComponent,
+    MoviesComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
