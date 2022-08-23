@@ -3,3 +3,5 @@
 <!--<p>{{allowNewServer}}</p>
 <p [innerText]="allowNewServer"></p>!-->
 <p>{{serverCreationStatus}}</p>
+<input type="text" (input)="onUpdateServerName($event)">
+<p>{{serverName}}</p>
