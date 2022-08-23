@@ -1,5 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;    
+}
 .tarjeta{
     height: 60rem;
+    width: 30rem;
     margin:2rem;
     padding: 3rem;
     background-color: #F1EFEE;
@@ -10,6 +16,10 @@
     padding-bottom: 2rem;
 }
 .movies{
-    width: 30rem; /*este no esta funcionando*/
+    /*width: 30rem; este no esta funcionando*/
     display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+    /*width:100wh; este tampoco funciona*/
 }
