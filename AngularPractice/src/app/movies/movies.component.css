@@ -16,10 +16,75 @@
     padding-bottom: 2rem;
 }
 .movies{
-    /*width: 30rem; este no esta funcionando*/
     display: flex;
     align-items: center;
     flex-wrap:wrap;
     justify-content: center;
-    /*width:100wh; este tampoco funciona*/
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100wh;
+    height: 7rem;
+}
+
+
+.inputSearch {
+    margin-right: 20px;
+    width: 50rem;
+    border-color: #D98E32;
+    height: 3.2rem;
+    border-radius: 4px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+/*para cuando hacen click para empezar a escribir*/
+.inputSearch:focus {
+    outline: none;
+    }
+
+.search button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #D98E32;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    width: 8rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.search button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+/* Para que se mueva a la derecha cuando hacemos hover
+.search button:hover span {
+    padding-right: 25px;
+    }
+*/
+.search button:hover {
+    background-color:#125773;
+    }
+
+/*BUSCAR COMO SE HACE PARA QUE DURE MÁS TIEMPO EL ACTIVE*/
+.search button:active{
+    background-color:#FFFFFF;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #125773;
+}
+.search button:active span{
+    color:black;
 }
