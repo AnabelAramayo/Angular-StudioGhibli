@@ -3,5 +3,5 @@
 <!--<p>{{allowNewServer}}</p>
 <p [innerText]="allowNewServer"></p>!-->
 <p>{{serverCreationStatus}}</p>
-<input type="text" (input)="onUpdateServerName($event)">
+<input type="text" name="inpurServer" [(ngModel)]="serverName">
 <p>{{serverName}}</p>

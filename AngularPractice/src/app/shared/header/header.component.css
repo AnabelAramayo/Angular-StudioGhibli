@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;    
+}
 .header {
     background-color:#0A3148;
     height: 10vh;
@@ -17,6 +22,7 @@
     color:white;
     padding-right: 30px;
     padding-top:1em;
+    cursor: default;
 }
 /*
 .hamburguerMenu{
@@ -24,39 +30,16 @@
     width: 25px;
 }*/
 
-.header p {
+.itemHeader {
     color:white;
-    padding-top:1.5em;
+    margin-top:1.5em;
 }
 
-/*
-.menuDesplegable{
-    margin:auto;
-    width: 500px;
-    
-}
-
-ul {
-list-style: none;
-}
-
-.subMenu li {
-    background-color: #B8C1A6;
+/*para sacarle el subrayado al a */
+.header a {
     text-decoration: none;
-    padding: 10px;
-    display:block;
 }
 
-.subMenu li:hover {
-    background-color: #0A3148;
-    color:white;
+.itemHeader:hover {
+    color:#D98E32;
 }
-
-.nav > li {
-    float:left;
-}
-*/
-/*
-.nav li ul {
-    display: none;
-}*/
